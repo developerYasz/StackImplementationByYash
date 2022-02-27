@@ -44,3 +44,25 @@ pop(){
         console.log(`top item of the stack is ${this.values[this.count-1]}`)
         return this.values[this.count-1]
     }
+    
+    const stack = new StackProgram();
+stack.push(10);
+stack.push(30);
+stack.push(30);
+stack.push(60);
+stack.push(20);
+stack.push(40);
+stack.push(20);
+stack.push(40);
+stack.push(30);
+stack.push(20);
+stack.push(50);
+stack.push(50);
+stack.push(20);
+stack.push(50);
+stack.pop();
+stack.peek();
+stack.push(50);
+stack.peek();
+stack.stack_container();
+stack.push(10);
