@@ -23,3 +23,18 @@ class StackProgram{
 
 
     }
+pop(){
+
+        if(this.count==0) {
+            console.log("no items to pop!!");
+        }
+        else{
+        let ditem=this.values[this.count-1];
+        this.count=this.count-1;
+        console.log(`${ditem} removed`);
+        return ditem;
+
+        }
+
+
+    }
