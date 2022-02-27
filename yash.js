@@ -38,3 +38,9 @@ pop(){
 
 
     }
+    
+      peek(){
+
+        console.log(`top item of the stack is ${this.values[this.count-1]}`)
+        return this.values[this.count-1]
+    }
